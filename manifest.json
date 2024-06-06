@@ -1,0 +1,17 @@
+{
+  "name": "Video Downloader on Cloud Flare V2",
+  "version": "1.0",
+  "manifest_version": 3,
+  "minimum_chrome_version": "120",
+  "description": "Video Downloader on Cloud Flare (without m3u8 streamming type)",
+  "background": {
+    "service_worker": "sw.js"
+  },
+  "permissions": ["storage", "userScripts"],
+  "host_permissions": ["<all_urls>"],
+  "action": {},
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  }
+}
